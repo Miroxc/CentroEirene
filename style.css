@@ -15,6 +15,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Morgan';
+  src: url('/fonts/Morgan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .fuente-personalizada {
   font-family: 'UrbanJungle', cursive;
@@ -101,4 +107,33 @@ body {
   padding: 40px 20px 60px;
 }
 
+.carrusel {
+  width: 100vw;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: transparent;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
 
+.carrusel-inner {
+  display: inline-block;
+  animation: moverCarrusel 15s linear infinite;
+}
+
+.carrusel span {
+  font-family: 'Morgan', sans-serif;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  margin: 0 10px;
+}
+
+/* Carrusel deslizante infinito */
+@keyframes moverCarrusel {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}
