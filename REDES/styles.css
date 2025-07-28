@@ -1,0 +1,95 @@
+:root {
+  --color-azul-fondo: #3a88c3;
+  --color-azul-boton: #a5d0f1;
+  --color-azul-boton-hover: #8ec0e7;
+  --blanco: #ffffff;
+  --color-texto-principal: #ffffff;
+  --color-texto-secundario: #dddddd;
+  --color-verde-menta: #4CAF50;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-texto-principal);
+  background: url('img/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.container {
+  position: relative;
+  z-index: 1; /* Para que quede encima de la capa oscura */
+  text-align: center;
+  max-width: 260px;
+  width: 100%;
+  background-color: var(--color-azul-fondo);
+  padding: 25px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid var(--color-verde-menta);
+}
+
+.profile h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: var(--blanco);
+}
+
+.links a {
+  display: block;
+  background-color: var(--color-azul-boton);
+  color: #000;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.links a i {
+  margin-right: 10px;
+  color: inherit;
+}
+
+.links a:hover {
+  background-color: var(--color-azul-boton-hover);
+  color: #000;
+}
+
+.socials {
+  margin-top: 30px;
+}
+
+.socials a {
+  color: var(--color-texto-secundario);
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.socials a:hover {
+  color: var(--color-azul-boton-hover);
+  transform: scale(1.2);
+}
