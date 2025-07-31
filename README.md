@@ -33,10 +33,15 @@ La interfaz está pensada tanto para el profesional como para el paciente, con u
 ## 📷 Capturas de Pantalla
 
 <p align="center">
-  <img src="URL_DE_LA_IMAGEN_1" alt="Inicio" width="80%">
+  <a href="https://centro-eirene.vercel.app" target="_blank">
+    <img src="https://raw.githubusercontent.com/usuario/repositorio/main/capturas/inicio.png" alt="Inicio" width="80%">
+  </a>
 </p>
+
 <p align="center">
-  <img src="URL_DE_LA_IMAGEN_2" alt="Formulario de Reserva" width="80%">
+  <a href="https://centro-eirene.vercel.app/calendario_reservas/index.html" target="_blank">
+    <img src="https://raw.githubusercontent.com/usuario/repositorio/main/capturas/formulario_reserva.png" alt="Formulario de Reserva" width="80%">
+  </a>
 </p>
 
 ---
