@@ -1,4 +1,4 @@
-<h1 align="center">🧠 Centro Psicológico</h1>
+<h1 align="center">🧠 Centro Psicológicos</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-yellow" alt="Estado del proyecto">
